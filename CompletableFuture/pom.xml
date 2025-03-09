@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>CompletableFuture</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Archetype - CompletableFuture</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <org.htmlunit>3.9.0</org.htmlunit>
+    <org.json>20211205</org.json>
+  </properties>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.htmlunit</groupId>
+      <artifactId>htmlunit</artifactId>
+      <version>${org.htmlunit}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>${org.json}</version>
+    </dependency>
+
+  </dependencies>
+
+</project>
